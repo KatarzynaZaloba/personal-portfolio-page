@@ -9,10 +9,6 @@
     html {
         font-size: 58%;
     }
-    .portrait {
-        width: 400px;
-        height: 400px;
-    }
 }
 
 
@@ -112,6 +108,13 @@ h1, h2 {
     max-width: 1280px;
     margin: 0 auto;
     margin-bottom: 6rem;
+}
+
+@media (max-width: 767px) {
+    .projects-grid {
+        display: grid;
+        grid-template-columns: none;
+    }
 }
 
 .project {
